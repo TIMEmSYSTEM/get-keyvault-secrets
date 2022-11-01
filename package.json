@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "compilefile": "ncc build lib/main.js -o dist --source-map",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Romil Goyal",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^12.7.8",
+    "@types/node": "^16.7.8",
     "typescript": "^3.6.3"
   },
   "dependencies": {

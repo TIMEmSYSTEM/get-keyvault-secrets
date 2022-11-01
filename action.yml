@@ -11,5 +11,5 @@ branding:
   icon: 'akv.svg'
   color: 'blue'
 runs:
-  using: 'node12'
-  main: 'lib/main.js'
+  using: 'node16'
+  main: 'dist/index.js'
